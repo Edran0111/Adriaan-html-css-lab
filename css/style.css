@@ -1,0 +1,180 @@
+body{
+	/*a. Any colour you prefer for the text */
+	color: #FAFAFA;
+	/*b. A background image, you can use any one from the 7 samples of dark-woodx.jpg. So, pick the 
+	one that reflects the colour of your website. 
+	▪ If no one matches your website colour, you can use Photoshop to change its colours 
+	▪ If you haven’t finished the Photoshop module, you will have no other choice just to pick one 
+	of the provided samples 
+	▪ Make sure to have only one background image which is the one that is used in your css code */
+	background-image: url("../assets/images/dark-wood2.jpg");
+
+	/*c. The font family (face) is at least 3 options of any sans-serif fonts */
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	/*d. Margin 0 for all the four sides (top, bottom, left, right)*/
+	margin: 0px;
+	
+}
+div.container{
+	/*The width value can be 950px➔  You can also use max-width: 1300px or any other value (Up 
+	to you) but using 950px is better for this assignment because the width of the banner image*/
+	width: 950px;
+
+	/*5px margin from top and bottom*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	/*The div has to be aligned centered based in the browser window (about the left/right margins). 
+	Using the CSS trick to center a block level element*/
+	
+	margin-left: auto;
+  	margin-right: auto;
+  	/*Apply any background colour that you prefer*/
+	background-color: #6CCFF6;
+}
+
+.content{
+	/*4. Style any element with class value of “content”, in other word target the class named “content”: 
+	a. The line height (of the text) should be 1.4em */
+	font-size: 1.4em;
+
+	/*b. 10px padding to all the sides */
+	padding: 10px;
+}
+
+header, nav, footer {
+	/*4. Style the “header, nav, and footer” elements to share the following:  
+	a. Any Dark/Light background colour */
+	background-color: #35bdf3  ;
+ 	/*b. 10px padding to all the sides */
+ 	color: #E8E1EF;
+ 	text-align: center;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 5px;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+nav a{
+	color:#096e96 ;
+}
+nav a:link{
+	color: blue;
+	text-decoration: none;
+}
+nav a:visited{
+	color: greenyellow;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:green;
+	text-decoration: none;
+}
+
+nav a:active{
+	color: yellow;
+	text-decoration: none;
+}
+.img-centre{
+	display: flex;
+	justify-content: center;
+	margin-top:5px ;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+.content{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+table{
+	width: 800px;
+	border: 2px solid black;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	border-collapse: collapse;
+}
+h1, h2, h3{
+	margin: 10px;
+	text-transform: uppercase;
+}
+td, th{
+	border: 2px	solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color:#5ac9f5  ;
+}
+table th, tfoot td{
+	text-transform: uppercase;
+	background-color:#48c3f4   ;
+}
+dt{
+	font-weight: bold;
+}
+footer{
+	font-size: 80%;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+iframe{
+	margin-top: 10px;
+  	margin-bottom: 10px;
+  	display: inline-block;
+	justify-content: center;  	
+}
+
+fieldset{
+	width: 500px;
+	margin-top: 20px;
+  	margin-bottom: 20px;
+  	margin-right: auto;
+  	margin-right: auto;
+  	border: 2px	solid black;
+  	background-color:#5ac9f5  ;
+}
+
+legend{
+	font-style: italic;
+	background-color:#35bdf3   ;
+	margin-top: 0px;
+  	margin-bottom: 0px;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+input[type=submit]{
+	padding: 5px;	
+	border: 2px	dashed black;
+	background-color: #a4e1fa ;
+}
+
+input[type=submit]:hover{
+	color: grey;
+	background-color: white;
+}
+video, .imagepalm{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
